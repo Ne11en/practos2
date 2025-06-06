@@ -9,10 +9,12 @@ class Program
     }
     
     // Функция для проверки, является ли число четным
+
     static bool IsEven(int numberzxc)
     {
         return numberzxc % 2 == 0;
-    }
+
+   
 
     // Функция для вычисления факториала
     static int Factorial(int n)
