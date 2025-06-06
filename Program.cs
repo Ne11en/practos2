@@ -21,6 +21,13 @@ class Program
         return n * Factorial(n - 1);
     }
 
+    // Функция для вывода приветствия
+    static void Greet(string name)
+    {
+        Console.WriteLine($"Привет, {name}!");
+    }
+
+
     static void Main(string[] args)
     {
         Console.WriteLine("Демонстрация работы функций:");
@@ -36,5 +43,11 @@ class Program
         // Тестирование функции факториала
         int factorialResult = Factorial(5);
         Console.WriteLine($"Факториал 5 = {factorialResult}");
+
+        // Тестирование функции приветствия
+        Greet("Пользователь");
+
+        Console.WriteLine("\nНажмите любую клавишу для выхода...");
+        Console.ReadKey();
     }
 } 
